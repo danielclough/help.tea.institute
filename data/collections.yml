@@ -1,0 +1,169 @@
+# Collections and articles are shown in the same order as defined here
+# See this for a full-blown example of a collection
+# - id: "slug-of-the-collection"
+#   title: "The Collection Title"
+#   description: "The collection's description"
+#   # see src/utils/icons.js for a list of all possible icons
+#   icon: "FaBook"
+#   # These are the "pinned" articles at the top of a collection
+#   articles:
+#     # All articles must be in the "../help" folder
+#     - file: ../help/first-article/index.md
+#     - file: ../help/second-article/index.md
+#   sections:
+#     - id: used-as-the-hashtag-of-the-land-animals-section
+#       title: "Land animals"
+#       articles:
+#         - file: ../help/lion/index.md
+#         - file: ../help/cat/index.md
+#     - id: used-as-the-hashtag-of-the-sea-animals-section
+#       title: "Sea animals"
+#       articles:
+#         - file: ../help/dolphins/index.md
+#         - file: ../help/whales/index.md
+
+- id: introduction
+  title: Introduction
+  description: Brief overview of Help.Tea.Institute
+  icon: "FaRegHandPeace"
+  sections:
+    - id: welcome
+      title: Welcome to Help.Tea.Institute  
+      articles:
+       - file: ../help/welcome/index.md
+       - file: ../help/vocab/index.md
+
+
+- id: brewing
+  title: Basic Brewing - How-to (and why)
+  description: Brew a perfect cup of tea every time.
+  icon: "FaBox"
+  sections:
+    - id: assesment
+      title: Tea Assesment
+      articles:
+        - file: ../help/brewing/assesment/index.md
+    - id: parameters
+      title: Brewing Parameters
+      articles:
+        - file: ../help/brewing/parameters/index.md
+    - id: personal
+      title: Personal Perference 
+      articles: 
+        - file: ../help/brewing/personal/index.md
+    - id: service
+      title: Tea Service
+      articles:
+        - file: ../help/brewing/service/index.md
+
+- id: equipment
+  title: Using Equipment 
+  description: Choosing equipment to optimize your tea experience.
+  icon: "FaRegListAlt"
+  sections:
+    - id: setup
+      title: Setup
+      articles:
+        - file: ../help/setup/index.md
+    - id: run-locally
+      title: Running locally
+      articles:
+        - file: ../help/run-locally/index.md
+    - id: editing-help
+      title: Editing help
+      articles:
+        - file: ../help/create-article/index.md
+        - file: ../help/managing-collections/index.md
+        - file: ../help/managing-authors/index.md
+        - file: ../help/managing-dates/index.md
+    - id: customizing
+      title: Customizing
+      articles:
+        - file: ../help/customizing-brand-logo/index.md
+        - file: ../help/customizing-locale/index.md
+        - file: ../help/customizing-icons/index.md
+        - file: ../help/customizing-theme/index.md
+    - id: deploying
+      title: Deploying
+      articles:
+        - file: ../help/deploy/index.md
+
+- id: manufacture
+  title: Tea Manufacture 
+  description: The most important aspect of tea production is the masters touch.
+  icon: "FaRegListAlt"
+  sections:
+    - id: green
+      title: Green Tea
+      articles:
+        - file: ../help/manufacture/green/index.md
+        - file: ../help/manufacture/green/steemed/index.md
+    - id: white
+      title: White Tea
+      articles:
+        - file: ../help/manufacture/white/index.md
+    - id: yellow
+      title: Yellow Tea
+      articles:
+        - file: ../help/manufacture/yellow/index.md
+    - id: wulong
+      title: Wulong Tea
+      articles:
+        - file: ../help/manufacture/wulong/index.md
+    - id: chinese-red
+      title: Chinese Red Tea
+      articles:
+        - file: ../help/manufacture/chinese-red/index.md
+    - id: indian-black
+      title: Indian Black Tea
+      articles:
+        - file: ../help/manufacture/indian-black/index.md
+    - id: chinese-black
+      title: Chinese Black Tea
+      articles:
+        - file: ../help/manufacture/chinese-black/index.md
+    - id: processed
+      title: Processed Tea
+      articles:
+        - file: ../help/manufacture/processed/index.md
+
+- id: geography
+  title: Tea Geography 
+  description: Geography is one of the most important factors for the classification of various teas.
+  icon: "FaRegListAlt"
+  sections:
+    - id: chinese
+      title: Chinese Tea
+      articles:
+        - file: ../help/geo/chinese/index.md
+    - id: SEAsian
+      title: South East Asian Tea
+      articles:
+        - file: ../help/geo/SEAsian/index.md
+    - id: korean
+      title: Korean Tea
+      articles:
+        - file: ../help/geo/korean/index.md
+    - id: japanese
+      title: Japanese Tea
+      articles:
+        - file: ../help/geo/japanese/index.md
+    - id: indian
+      title: Indian Tea
+      articles:
+        - file: ../help/geo/indian/index.md
+    - id: african
+      title: African Tea
+      articles:
+        - file: ../help/geo/african/index.md
+    - id: american
+      title: American Tea
+      articles:
+        - file: ../help/geo/SAmerican/index.md
+
+- id: giving-back
+  title: Giving back
+  description: 'Options in case you want to say "thank you"'
+  icon: "FaPeopleCarry"
+  articles:
+    - file: ../help/giving-back/index.md
