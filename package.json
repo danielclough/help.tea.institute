@@ -7,7 +7,7 @@
     "url": "https://github.com/dferber90/gatsby-starter-help-center/issues"
   },
   "dependencies": {
-    "@emotion/core": "10.0.27",
+    "@emotion/core": "10.0.35",
     "@mdx-js/react": "1.5.5",
     "downshift": "5.0.0",
     "fuse.js": "3.4.6",
